@@ -1,0 +1,2 @@
+module RagersHelper
+end
