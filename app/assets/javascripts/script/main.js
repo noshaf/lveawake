@@ -17,7 +17,7 @@ $(document).ready(function()
 		{
 			slide		: 
 			[
-				{image	: 'http://3.bp.blogspot.com/-YTic3NFRHwk/T4mcz270ZUI/AAAAAAAAHgA/DK8QkVjr024/s1600/Ni788563-sunrise.jpg'}
+				{image	: '/sunrise.jpeg'}
 			]		
 		},
 		googleMap		:
