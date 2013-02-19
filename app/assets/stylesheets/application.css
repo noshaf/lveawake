@@ -21,9 +21,8 @@
   opacity: .8;
  }
 
- html { 
+ .background { 
   background-image:url('/sunrise.jpeg'); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  }
+  height:100%;
+  width:100%;
+}
