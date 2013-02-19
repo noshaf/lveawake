@@ -6,7 +6,7 @@ class RagersController < ApplicationController
   def create
     @rager = Rager.new(params[:rager])
     if @rager.save
-
+      LveAwake.welcome_email(@rager).deliver
       redirect_to rager_path(@rager), :alert => "Thanks for signing up!"
     else
       redirect_to new_rager_path, :alert => "Invalid email"

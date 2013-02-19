@@ -1,6 +1,6 @@
 Lveawake::Application.routes.draw do
 
-  root :to => 'homepage#index'
+  root :to => 'ragers#new'
 
   resources :ragers
 

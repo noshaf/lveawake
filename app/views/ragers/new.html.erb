@@ -92,21 +92,174 @@
           <li class="text-center clear-fix">
                         
             <h1 class="margin-bottom-0"></h1>
-            <h1>Sign Up</h1>
-
-
+            <h1>Flash dance parties</h1>
             
             <p class="subtitle-paragraph margin-top-20 margin-bottom-50 clear-fix">
               Starting in the spring we will be hosting flash dance parties once a month at different locations all around San Francisco. 
-              <%= form_for @rager do |f| %>
-                <%= f.text_field :email, :placeholder => "Email" %><br>
-                <br>
-                <%= f.submit "Party!" %>
-              <% end %>
+              <span class="bold">We will announce the show 24 hours in advance and text you the location a few hours before the party starts. Parties will start at 1am and go til the sunrise.</span>
             </p>
+
+             <%= form_for @rager do |f| %>
+              <%= f.text_field :email, :placeholder => "Email", :style => "height:25px;" %>
+              <%= f.submit "Request an invite", :style => "color:white;background-color:black;height:30px;width:150px;font-size:120%;" %>
+            <% end %>
+
+          </li>
+          <!-- /Main -->
+          
+      
+          <li>
+            
+            <h2>Run Down</h2>
+            
+          
+              
+              <!-- Right column -->
+              <div class="layout-50-right">
+                
+                <!-- Accordion -->
+                <div class="nostalgia-accordion clear-fix">
+
+                  <h3><a href="#">Hows it works</a></h3>
+                  <div>
+                    
+                    <div>
+                    
+                      <ul class="no-list list-1 clear-fix">
+
+                        <li>
+                          <span>1</span>
+                          <h5>Request an invite</h5>
+                          <p>Based on the volume of sign-ups we have received already we won't be able to invite everyone. Instead we have decided to make the parties invite only and curate the parties as much as we can. </p>
+                        </li>
+                        <li>
+                          <span>2</span>
+                          <h5>Tell us about yourself</h5>
+                          <p>Once you request an invite we will send you a little survey with a few fun and simple questions to fill out so we can get to know you a little better.</p>
+                        </li>
+                        <li>
+                          <span>3</span>
+                          <h5>Once your invited</h5>
+                          <p>Any person who is invited will need to share with us their phone number so we can text you the location of the event and password to get in.</p>
+                        </li>
+                        <li>
+                          <span>4</span>
+                          <h5>Dance all night long</h5>
+                          <p>The sole focus of our dance parties will be music, fun, and dancing! Make sure to bring a smile.</p>
+                        </li>
+
+                      </ul>
+                      
+                    </div>
+                    
+                  </div>
+                  
+                  
+                  <!-- We can use this later  <h3><a href="#">Youtube preview</a></h3>
+                  <div>
+                    
+                    <div>
+                    
+                      <a href="http://www.youtube.com/embed/r-aer2QFybc" class="preloader overlay-video fancybox-video-youtube video-preview">
+                        <img src="image/_sample/img3.jpg" alt="" />
+                        <span></span>
+                      </a>
+                      
+                    </div>
+                    
+                  </div>
+                  
+                  <h3><a href="#">Vimeo preview</a></h3>
+                  <div>
+                    
+                    <div>
+                    
+                      <a href="http://player.vimeo.com/video/10470386" class="preloader overlay-video fancybox-video-vimeo video-preview">
+                        <img src="image/_sample/img1.jpg" alt="" />
+                        <span></span>
+                      </a>  
+                      
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+                <!-- /Accordion -->
+                  
+              </div>
+              <!-- /Right column -->
+              
+            </div>
             
           </li>
+          <!-- /Features -->
+          
+          
+          <!-- Testimonials -->
+          <li>
+            
+          
+      
+      
+      <!-- Footer -->
+      <div class="footer layout-50 clear-fix">
+          
+        <!-- Left column -->
+      <!--    <div class="layout-50-left">
+          
+          <h3>Network With Us</h3>
+          
+          <!-- Latest tweets -->
+          <!-- <div id="latest-tweets"></div>
+          <!-- /Latest tweets -->
+          
+          <!-- Social icons list -->
+        <!--  <ul class="no-list social-list clear-fix">
+            <li><a href="#" class="social-list-twitter"></a></li>
+            <li><a href="#" class="social-list-facebook"></a></li>
+            <li><a href="#" class="social-list-googleplus"></a></li>
+          </ul>
+          <!-- /Social icons list -->
+
         </div>
+        <!-- /Left column -->
+
+        <!-- Right column -->
+         <!--  <div class="layout-50-right">
+          
+          <h3>Join Our Mailing List</h3>  
+          
+          <p>
+            Get the latest news and updates with the Nostalgia newsletter.<br/>
+            Join our monthly email newsletter. It's fast and easy.
+          </p>
+          
+          <!-- Newsletter form -->
+          <!-- <form name="newsletter-form" id="newsletter-form" action="" method="post" class="clear-fix">
+            
+            <div class="clear-fix">
+
+              <ul class="no-list form-line">
+
+                <li class="clear-fix block">
+                  <label for="newsletter-form-mail">Your e-mail</label>
+                  <input type="text" name="newsletter-form-mail" id="newsletter-form-mail" value=""/>
+                  <input type="submit" id="newsletter-form-send" name="newsletter-form-send" class="button" value="Send"/>
+                </li>
+                
+              </ul>
+              
+            </div>
+            
+          </form>
+          <!-- /Newsletter form -->
+
+        </div>
+        <!-- /Right column -->
+        
+      </div>
+      <!-- /Footer -->
+
     </div>
       
     <!-- Background overlay -->
