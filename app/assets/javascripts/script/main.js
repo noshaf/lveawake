@@ -17,7 +17,7 @@ $(document).ready(function()
 		{
 			slide		: 
 			[
-				{image	: '/sunrise.jpeg'}
+				{image	: ''}
 			]		
 		},
 		googleMap		:

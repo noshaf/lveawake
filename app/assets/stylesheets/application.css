@@ -20,3 +20,10 @@
   font-size: 200%;
   text-align: center;
  }
+
+ html { 
+  background-image:url('/sunrise.jpeg'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  }
