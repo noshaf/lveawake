@@ -22,7 +22,7 @@
  }
 
  .background { 
-  background-image:url('/sunrise.jpeg'); 
   height:100%;
   width:100%;
+  background:url('/sunrise.jpeg') center no-repeat;
 }
