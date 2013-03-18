@@ -3,6 +3,12 @@ task :send_welcome_test_email => :environment do
   LveAwake.welcome_email(noah).deliver
 end
 
-task :ragers_count => :environment do
+task :emails => :environment do
+    Rager.all.each do |s|
+    puts s.email
+  end
+end
+
+task :count => :environment do
   puts Rager.all.count
 end
